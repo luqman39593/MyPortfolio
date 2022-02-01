@@ -360,4 +360,7 @@ html{
     #aboutMesection{
         width: 90%;
     }
+    .project{
+        margin-bottom: 3px;
+    }
 }
