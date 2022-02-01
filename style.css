@@ -353,7 +353,7 @@ html{
     }
 }
 
-@media(max-width: 300px){
+@media(max-width: 500px){
     header{
         height: 20vh;
     }
