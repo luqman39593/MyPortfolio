@@ -355,7 +355,7 @@ html{
 
 @media(max-width: 500px){
     header{
-        height: 20vh;
+        height: 18vh;
     }
     #aboutMesection{
         width: 90%;
