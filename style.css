@@ -352,3 +352,12 @@ html{
         width: 100%;
     }
 }
+
+@media(max-width: 300px){
+    header{
+        height: 20vh;
+    }
+    #aboutMesection{
+        width: 90%;
+    }
+}
