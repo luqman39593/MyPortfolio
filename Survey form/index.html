@@ -1,0 +1,63 @@
+<!--
+    Auther's Name: LUQMAN SALAD ALI
+    Coded date: 29/01/2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="pagedescription">
+            <h1>Welcome to Our survey</h1>
+            <p>We are so glad to see you here and take part of this survey. In this survey we will focus on the best University in Somalia.</p>
+            <p>The survey contains chooing questions and also comment section, so go ahead and choice your best unuversity.</p>
+            <p class="note">Fields that have this symbol <span class="highlight">*</span> are reuired.</p>
+        </div>
+        <div id="surveyQuestion">
+            <label><span class="highlight">*</span> FirstName: <br><input type="text" placeholder="FirstName:" required></label>
+            <label><span class="highlight">*</span> LastName: <br><input type="text" placeholder="LastName" required></label>
+            <label><span class="highlight">*</span> Email: <br><input type="email" placeholder="Email:" required></label>
+            <label><span class="highlight">*</span> Which category best describes you?<br>
+                <select class="select" required>
+                    <option>Student</option>
+                    <option>Teacher</option>
+                    <option>Parent</option>
+                </select>
+            </label>
+            <label><span class="highlight">*</span> Who is your best University.
+                <select class="select" required>
+                    <option>Simad University</option>
+                    <option>Jamhuria University</option>
+                    <option>Somalia National University</option>
+                    <option>Banadir University</option>
+                    <option>Hayat University</option>
+                    <option>Zamzam University</option>
+                    <option>Kowneyn University</option>
+                    <option>Somalia international University</option>
+                    <option>University of Somalia</option>
+                </select>
+            </label>
+            <label>Are you a memeber of this University<br>
+                <select class="select">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </label>
+            <label>Please write here why you choise this University?
+            <textarea placeholder="Why you choice this University?"></textarea>
+            </label>
+        </div>
+        <button type="submit" class="btn">Submit Your Survey</button>
+    </div>
+
+    <footer><p>Copyright &copy; luqmansalad | 2022, Allrights are reserved</p></footer>
+
+</body>
+</html>

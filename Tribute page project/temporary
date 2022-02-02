@@ -1,0 +1,53 @@
+                <div id="PCimg1">
+                    <img src="./Img/peace conference1.png" alt="peace conference1">
+                    <p>Dr Zakir Naik delivering anaugural speech of peace conference 2007</p>
+                </div>
+                <div id="PCimg2">
+                    <img src="./Img/peace conference2.png" alt="peace conference2">
+                    <p>Shaikh Saud Shuraim, Imaam of Masjid Al Haram, Makkah, Greeting Dr Zakir Naik and appreciating his great contribution for promotion islaamic understanding and appreciation worldwide at the peace conference 2010.</p>
+                </div>
+                <div id="PCimg3">
+                    <img src="./Img/peace conference3.png" alt="peace conference3">
+                    <p>Audience for Dr Zakir Naik's Concluding lecture at the peace conference 2009</p>
+                </div>
+                <div id="PCimg4">
+                    <img src="Img/peace conference4.png" alt="peace conference4">
+                    <p>Dr Zakir Naik Delivering alecture at peace conference 2009</p>
+                </div>
+
+<p>International Islamic Peace Conference 2007, 2008, 2009, 2010 and 2011, Somaiya Grounds, Mumbai, India.
+                    The English International Peace Conference 2007 and 2009, Alhamdulillah were the largest English Islamic Conferences in the World
+                    which were attended by 1 million people.
+                </p>
+
+                -------------------------------------------css-----------------------------
+<p><strong>A medical doctor by professional training, Dr Zakir Naik is renowned as a dynamic international orator on Islam and Comparative Religion</strong>.
+                    He is the Founder of the Peace TV Network the largest Religious Satellite Channel Network in the world. He is 55 years old. Dr Zakir clarifies 
+                    Islamic viewpoints and clears misconceptions about Islam, using the Qur'an, authentic Hadith and other religious Scriptures as a basis, in conjunction 
+                    with reason, logic and scientific facts. He is popular for his critical analysis and convincing answers to challenging questions posed by audiences after his public talks.</p>
+                <p>For more information about Dr Zakir Naik visit Here <a href="https://zakirnaik.com/Introduction-DrZakirNaik/" target="_blank">About Dr Zakir Naik</a></p>
+            </div>
+
+.peaceConferencesimg{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 15px;
+    column-gap: 20px;
+    overflow: hidden;
+}
+#PCimg1{
+    background-color: #fff;
+}
+#PCimg2{
+    background-color: #fff;
+}
+#PCimg3{
+    background-color: #fff;
+}
+#PCimg4{
+    background-color: #fff;
+}
+.peaceConferencesimg img{
+    width: 100%;
+    height: 200px;
+}

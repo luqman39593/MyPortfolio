@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("./img/university.jpg"), linear-gradient(#777476, #857e7d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.highlight{
+    color: #ff0000;
+}
+.note{
+    padding-top: 10px;
+}
+.container{
+    width: 55%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    opacity: 90%;
+    border-radius: 7px;
+}
+#pagedescription{
+    margin-bottom: 30px;
+}
+#pagedescription h1{
+    text-align: center;
+    text-decoration: underline 5px solid rgb(14, 60, 145);
+    margin-bottom: 30px;
+}
+#surveyQuestion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#surveyQuestion input{
+    width: 80%;
+    height: 20px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.select{
+    width: 80%;
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 4px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 80%;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 20px 40%;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+}
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+@media(max-width: 500px){
+    body{
+        height: 100vh;
+    }
+    .container{
+        width: 95%;
+        margin: 50px auto;
+    }
+    .btn{
+        margin: 50px auto;
+    }
+    
+    
+}
+@media(max-width: 300px){
+    #surveyQuestion{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .btn{
+        margin: 50px auto;
+    }
+}
