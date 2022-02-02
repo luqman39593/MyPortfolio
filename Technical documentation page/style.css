@@ -3,8 +3,7 @@
     margin: 0;
 }
 html{
-    transition:ease-in-out;
-    transition-duration: 1s;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #f4f4f4;

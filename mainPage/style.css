@@ -199,8 +199,8 @@ html{
 .progress_border{
     width: 90%;
     background-color: #f4f4f4;
-    border: 1px solid #00ff00;
-    height: 16px;
+    border: 1px solid #000;
+    height: 17px;
     margin-bottom: 10px;
     border-radius: 7px;
 }
